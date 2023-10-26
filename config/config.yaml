@@ -1,0 +1,15 @@
+app:
+  password_retention_minute: 5
+  port: 8080
+  secret_key: secret_key
+mysql:
+  user: root
+  password: secret_password
+  host: localhost
+  port: 3306
+  db_name: reddit
+mongodb:
+  host: localhost
+  port: 27017
+  db_name: reddit
+
